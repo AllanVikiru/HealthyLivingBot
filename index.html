@@ -3,8 +3,25 @@
         <title>
             Healthy Living Bot Demo
         </title>
+        <style>
+            html, body {
+                height:100%;
+                width:100%;
+                margin:0;
+            }
+            .h_iframe iframe {
+                width:100%;
+                height:100%;
+            }
+            .h_iframe {
+                height: 100%;
+                width:100%;
+            }
+        </style>
     </head>
     <body>
-          <iframe width="1200" height="600" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/8d719a60-4ee0-4f6e-a16f-ce343880f57a"></iframe>  
+        <div class="h_iframe">
+          <iframe frameborder="0" allowfullscreen src="https://console.dialogflow.com/api-client/demo/embedded/8d719a60-4ee0-4f6e-a16f-ce343880f57a"></iframe>  
+        </div>
     </body>
 </html>
